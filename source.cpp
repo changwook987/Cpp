@@ -280,7 +280,7 @@ int main()
                     gotoxy({SIZE_X + 2, 3});
                     setColor(15);
                     score += 10;
-                    printf("score : 10%d", score);
+                    printf("score : %d", score);
                     setColor(0);
                 }
             }
